@@ -1,0 +1,35 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CAIP — Corporate AI Platform">
+  <defs>
+    <linearGradient id="shieldW" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16B7AE"/>
+      <stop offset="1" stop-color="#0E8F9C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon (compact) -->
+  <g transform="translate(20,30) scale(0.39)">
+    <path d="M256 96 L388 146 V268 C388 346 326 396 256 420 C186 396 124 346 124 268 V146 Z"
+          fill="none" stroke="url(#shieldW)" stroke-width="22" stroke-linejoin="round"/>
+    <g stroke="#16B7AE" stroke-width="12" stroke-linecap="round">
+      <line x1="256" y1="234" x2="200" y2="190"/>
+      <line x1="256" y1="234" x2="312" y2="190"/>
+      <line x1="256" y1="234" x2="256" y2="312"/>
+    </g>
+    <g fill="#0A2540">
+      <circle cx="200" cy="190" r="20"/>
+      <circle cx="312" cy="190" r="20"/>
+      <circle cx="256" cy="312" r="20"/>
+    </g>
+    <circle cx="256" cy="234" r="28" fill="#16B7AE"/>
+    <circle cx="256" cy="234" r="13" fill="#0A2540"/>
+    <rect x="196" y="356" width="120" height="14" rx="7" fill="#0A2540"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="250" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="92" font-weight="700" letter-spacing="2" fill="#0A2540">CAIP</text>
+  <text x="252" y="178" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="31" font-weight="500" letter-spacing="1.5" fill="#0E8F9C">Corporate AI Platform</text>
+  <text x="252" y="214" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="20" font-weight="400" letter-spacing="0.5" fill="#5B7186">Sovereign on-prem AI · BYOM · air-gap capable</text>
+</svg>

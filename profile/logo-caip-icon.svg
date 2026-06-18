@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CAIP logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="1" stop-color="#103B63"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16B7AE"/>
+      <stop offset="1" stop-color="#0E8F9C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#7CF3E6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7CF3E6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="232" r="170" fill="url(#glow)"/>
+
+  <!-- shield = sovereignty / protection -->
+  <path d="M256 96 L388 146 V268 C388 346 326 396 256 420 C186 396 124 346 124 268 V146 Z"
+        fill="none" stroke="url(#shield)" stroke-width="20" stroke-linejoin="round"/>
+
+  <!-- neural core = AI: central node + three linked nodes -->
+  <g stroke="#16B7AE" stroke-width="11" stroke-linecap="round">
+    <line x1="256" y1="234" x2="200" y2="190"/>
+    <line x1="256" y1="234" x2="312" y2="190"/>
+    <line x1="256" y1="234" x2="256" y2="312"/>
+  </g>
+  <g fill="#EAF8F6">
+    <circle cx="200" cy="190" r="20"/>
+    <circle cx="312" cy="190" r="20"/>
+    <circle cx="256" cy="312" r="20"/>
+  </g>
+  <circle cx="256" cy="234" r="28" fill="#16B7AE"/>
+  <circle cx="256" cy="234" r="13" fill="#EAF8F6"/>
+
+  <!-- foundation line = "Eigengrund" / on-prem base -->
+  <rect x="196" y="356" width="120" height="14" rx="7" fill="#EAF8F6" opacity="0.92"/>
+</svg>
